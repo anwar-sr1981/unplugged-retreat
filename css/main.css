@@ -86,6 +86,242 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ----- Base Header - Footer Styles -----*/
+/*----- Add all elements, classes, and IDs -----*/
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Header Styles */
+
+header {
+    
+}
+
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header figure {
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* --------------------- Mobile Styles - Homepage --------------------*/
+
+/* Unplugged - 220px 
+Nav bar - 160px
+"retreat from the desk . . ." - 300px
+review h3 - 172px
+*/
+
+header {
+    padding: 15px 0;
+}
+
+header nav {
+    width: 44%;
+}
+
+header nav ul {
+    width: 44%;
+}
+
+header .divider {
+    width: 100%;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 0;
+}
+
+.features {
+    width: 55%;
+}
+
+.features h1 {
+    padding: 50px 0;
+}
+
+.features p {
+    margin: 0;
+}
+
+.fontawesome-icon{
+    padding: 70px 0;
+}
+
+.form {
+    padding: 36px 0;
+}
+
+footer {
+    margin: 0;
+}
+
+footer .contact h3{
+    padding: 90px 0;
+}
+
+footer .contact p{
+    padding: 20px 0;
+}
+
+footer .social h3 {
+    padding: 20px 0;
+}
+
+footer .social p {
+    padding: 20px 0;
+}
+
+.form-description h3{
+    padding: 30px 0;
+}
+
+.hero-area h1 {
+    padding: 50px 0;
+}
+
+.reviews h1 {
+    padding: 55px 0;
+}
+
+.reviews h3 {
+    padding: 20px;
+    width: 47%;
+}
+
+.reviews article{
+    padding: 25px 0;
+}
+
+/* ----- Hero Area ------ */
+
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .content-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+aside {
+    
+}
+
+aside .form-description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+aside .form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* ----- Features Area ----- */
+
+.features {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.features .features-item-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* ----- Reviews Area ------ */
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews .content-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.reviews article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+/* ----- Footer Area ------ */
+
+
+footer social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------------- FAQ Page ---------------------*/
+
+.faq {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.faq .content-wrapper{
+
+}
+
 
 /* ==========================================================================
    Helper classes
